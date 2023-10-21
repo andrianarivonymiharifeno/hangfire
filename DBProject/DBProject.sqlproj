@@ -13,7 +13,7 @@
     </RootPath>
     <RootNamespace>DBProject</RootNamespace>
     <AssemblyName>DBProject</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
+    <ModelCollation>1036,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -22,6 +22,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>French_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -56,5 +58,23 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Security\" />
+    <Folder Include="HangFire\" />
+    <Folder Include="HangFire\Tables\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Security\Permissions.sql" />
+    <Build Include="HangFire\Tables\AggregatedCounter.sql" />
+    <Build Include="HangFire\Tables\Hash.sql" />
+    <Build Include="HangFire\Tables\Counter.sql" />
+    <Build Include="HangFire\Tables\Set.sql" />
+    <Build Include="HangFire\Tables\List.sql" />
+    <Build Include="HangFire\Tables\Server.sql" />
+    <Build Include="HangFire\Tables\JobQueue.sql" />
+    <Build Include="HangFire\Tables\JobParameter.sql" />
+    <Build Include="HangFire\Tables\State.sql" />
+    <Build Include="HangFire\Tables\Job.sql" />
+    <Build Include="HangFire\Tables\Schema.sql" />
+    <Build Include="Security\HangFire.sql" />
   </ItemGroup>
 </Project>
