@@ -6,6 +6,7 @@ using Hangfire;
 using Hangfire.SqlServer;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Hangfire.Dashboard;
 
 [assembly: OwinStartup(typeof(hangfire.Startup))]
 
@@ -19,7 +20,8 @@ namespace hangfire
                 .SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
                 .UseSimpleAssemblyNameTypeSerializer()
                 .UseRecommendedSerializerSettings()
-                .UseSqlServerStorage("Data Source=FENO-PC;Initial Catalog=Hangfire;User ID=sa;Password=sql2019");
+                 .UseSqlServerStorage("Server=FENO-PC;Database=HangFire;User Id=sa;Password=sql2019;TrustServerCertificate=True;");
+
 
             yield return new BackgroundJobServer();
         }
@@ -31,6 +33,23 @@ namespace hangfire
 
             // Let's also create a sample background job
             BackgroundJob.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
+
+            app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            {
+                Authorization = new[] { new MyAuthorizationFilter() }
+            });
+        }
+    }
+    public class MyAuthorizationFilter : IDashboardAuthorizationFilter
+    {
+        public bool Authorize(DashboardContext context)
+        {
+            // In case you need an OWIN context, use the next line, `OwinContext` class
+            // is the part of the `Microsoft.Owin` package.
+            var owinContext = new OwinContext(context.GetOwinEnvironment());
+
+            // Allow all authenticated users to see the Dashboard (potentially dangerous).
+            return owinContext.Authentication.User.Identity.IsAuthenticated;
         }
     }
 }

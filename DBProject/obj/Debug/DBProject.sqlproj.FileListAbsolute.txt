@@ -7,3 +7,4 @@ C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\postdeploy.sql
 C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\predeploy.sql
 C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\DBProject.dll
 C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\DBProject.pdb
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\DBProject.sqlproj.AssemblyReference.cache
