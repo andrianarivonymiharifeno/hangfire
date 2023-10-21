@@ -1,0 +1,88 @@
+21/10/2023 21:00:27	Ce journal contient des informations sur l'importation du schéma dans le projet 'DBProject' sur l'ordinateur 'FENO-PC' par l'utilisateur 'Mihary'.
+21/10/2023 21:00:27	L'importation du schéma de base de données a commencé.
+21/10/2023 21:00:33	Collecte des informations d'identification à la base de données
+21/10/2023 21:00:33	Collecte des options de la base de données
+21/10/2023 21:00:33	Collecte de l'option de configuration étendue à la base de données générique
+21/10/2023 21:00:33	Collecte des utilisateurs
+21/10/2023 21:00:33	Collecte des rôles
+21/10/2023 21:00:33	Collecte des rôles d'application
+21/10/2023 21:00:33	Collecte des appartenances aux rôles
+21/10/2023 21:00:33	Collecte des groupes de fichiers
+21/10/2023 21:00:33	Collecte des catalogues de recherche en texte intégral
+21/10/2023 21:00:33	Collecte des assemblys
+21/10/2023 21:00:33	Collecte des certificats
+21/10/2023 21:00:33	Collecte des clés asymétriques
+21/10/2023 21:00:33	Collecte des clés symétriques
+21/10/2023 21:00:33	Collecte des clés symétriques chiffrées
+21/10/2023 21:00:33	Collecte des schémas
+21/10/2023 21:00:33	Collecte des collections de schémas XML
+21/10/2023 21:00:33	Collecte des types de données définis par l'utilisateur
+21/10/2023 21:00:33	Collecte des types définis par l'utilisateur
+21/10/2023 21:00:33	Collecte des types de tables
+21/10/2023 21:00:33	Collecte des clés uniques des types de tables
+21/10/2023 21:00:33	Collecte des clés primaires pour les types de tables
+21/10/2023 21:00:33	Collecte d'index pour types de tables
+21/10/2023 21:00:34	Collecte des contraintes de validation pour les types de tables
+21/10/2023 21:00:34	Collecte des contraintes par défaut pour les types de tables
+21/10/2023 21:00:34	Collecte des fonctions de partition
+21/10/2023 21:00:34	Collecte des schémas de partition
+21/10/2023 21:00:34	Collecte des fonctions
+21/10/2023 21:00:34	Collecte de fonctions cryptées
+21/10/2023 21:00:34	Collecte des agrégats
+21/10/2023 21:00:34	Collecte des procédures
+21/10/2023 21:00:34	Collecte de procédures cryptées
+21/10/2023 21:00:34	Collecte des tables
+21/10/2023 21:00:34	Collecte des clés primaires
+21/10/2023 21:00:34	Collecte des contraintes uniques
+21/10/2023 21:00:34	Collecte des clés étrangères
+21/10/2023 21:00:34	Collecte des contraintes par défaut
+21/10/2023 21:00:34	Collecte des contraintes de validation
+21/10/2023 21:00:34	Collecte des vues
+21/10/2023 21:00:34	Collecte de vues cryptées
+21/10/2023 21:00:34	Collecte des index
+21/10/2023 21:00:34	Collecte des statistiques
+21/10/2023 21:00:34	Collecte des listes de mots vides d'index de recherche en texte intégral
+21/10/2023 21:00:34	Collecte des listes de propriétés de recherche
+21/10/2023 21:00:34	Collecte des propriétés de recherche
+21/10/2023 21:00:34	Collecte des index de recherche en texte intégral
+21/10/2023 21:00:34	Collecte des index de la banque de colonnes
+21/10/2023 21:00:34	Collecte des index spatiaux
+21/10/2023 21:00:34	Collecte des index XML
+21/10/2023 21:00:34	Collecte d'index XML sélectifs
+21/10/2023 21:00:34	Collecte de déclencheurs cryptés
+21/10/2023 21:00:34	Collecte des déclencheurs
+21/10/2023 21:00:34	Collecte des déclencheurs chiffrés et DDL CLR
+21/10/2023 21:00:34	Collecte des DDL triggers
+21/10/2023 21:00:34	Création de contraintes d'arête
+21/10/2023 21:00:34	Collecte des synonymes
+21/10/2023 21:00:34	Collecte des valeurs par défaut
+21/10/2023 21:00:34	Collecte des liaisons UDDT de contrainte de données
+21/10/2023 21:00:34	Collecte des règles
+21/10/2023 21:00:34	Collecte des liaisons UDDT de contrainte de données
+21/10/2023 21:00:34	Collecte des types de messages
+21/10/2023 21:00:34	Collecte des files d'attente
+21/10/2023 21:00:34	Collecte des contrats
+21/10/2023 21:00:34	Collecte des services
+21/10/2023 21:00:34	Collecte des notifications d'événements
+21/10/2023 21:00:34	Collecte des liaisons de service distant
+21/10/2023 21:00:34	Collecte des priorités de Service Broker
+21/10/2023 21:00:34	Collecte des signatures
+21/10/2023 21:00:34	Collection des options de compression de données
+21/10/2023 21:00:34	Collecte des types de séquences
+21/10/2023 21:00:34	Collecte des stratégies de sécurité
+21/10/2023 21:00:34	Collecter les clés de chiffrement de colonne
+21/10/2023 21:00:34	Collecte des clés principales de colonne
+21/10/2023 21:00:34	Collecte des sources de données externes
+21/10/2023 21:00:34	Collecte des formats de fichier externes
+21/10/2023 21:00:34	Collecte des tables externes
+21/10/2023 21:00:34	Collecte des autorisations de base de données
+21/10/2023 21:00:34	Collection des propriétés étendues
+21/10/2023 21:00:34	Collecte des assemblys
+21/10/2023 21:00:34	Collecte des informations d'identification
+21/10/2023 21:00:34	Collecte des connexions
+21/10/2023 21:00:34	Collecte des audits du serveur
+21/10/2023 21:00:34	Analyse du projet à la recherche des éléments en double
+21/10/2023 21:00:34	Fin du traitement des éléments en double
+21/10/2023 21:00:34	Importation de la base de données terminée.
+21/10/2023 21:00:34	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\feno\Documents\GitHub\hangfire\DBProject\Importer les journaux de schémas\DBProject_20231021070027.log.
+21/10/2023 21:00:34	Cliquez sur Terminer pour continuer...

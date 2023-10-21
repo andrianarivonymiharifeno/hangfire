@@ -1,0 +1,9 @@
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\bin\Debug\DBProject.dacpac
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\bin\Debug\DBProject.dll
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\bin\Debug\DBProject.pdb
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\Model.xml
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\refactor.xml
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\postdeploy.sql
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\predeploy.sql
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\DBProject.dll
+C:\Users\feno\Documents\GitHub\hangfire\DBProject\obj\Debug\DBProject.pdb
