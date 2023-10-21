@@ -1,0 +1,4 @@
+/hangfire/obj
+/hangfire/bin
+/hangfire.Tests/bin
+/hangfire.Tests/obj
